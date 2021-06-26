@@ -1,0 +1,19 @@
+{
+  "name": "node-farm",
+  "version": "1.0.0",
+  "description": "Learning node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmunson85/Node.js-API-Practice.git"
+  },
+  "author": "Zachary Munson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmunson85/Node.js-API-Practice/issues"
+  },
+  "homepage": "https://github.com/zmunson85/Node.js-API-Practice#readme"
+}
