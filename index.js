@@ -3,7 +3,6 @@ const fs = require('fs');
 const http = require('http');
 const url = require('url');
 
-
 const replaceTemplate = require('./starter/modules/replaceTemplate')
 
 
@@ -86,9 +85,7 @@ const server = http.createServer((req, res) => {
 
         const cardsHtml = dataObj.map(el => replaceTemplate(tempCard, el)).join('');
         const output = tempOverview.replace('{%PRODUCT_CARDS%}', cardsHtml);
-
-
-
+        
         res.end(output);
 
 
